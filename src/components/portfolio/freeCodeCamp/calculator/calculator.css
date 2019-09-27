@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "Digital";
+    src: url("./webfont/digital-7.ttf") format("truetype")
+}
+
+.calculator-display {
+
+    /* font-size: 3rem; */
+}
+
+.calculator-container  {
+    font-size: 1.7rem;
+    padding: 3px;
+    color: white;
+    font-family: "Digital";
+
+}
+
+
+.cal-button {
+    height: 50px;
+    background: #e3e;
+    margin: 0.5px;
+}
+
+.cal-button:hover {
+    background: grey;
+    color: black;
+    cursor: pointer;
+}
+
+
+.row.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+
+    & > [class^="col-"],
+    & > [class*=" col-"] {
+      padding-right: 0;
+      padding-left: 0;
+    }
+  }
+
+.cal-ac-button {
+    background: rgb(172, 57, 57);
+    line-height: 50px;
+}
+
+.cal-operators-button {
+    background: rgb(102, 102, 102);
+    line-height: 50px;
+}
+
+.cal-numbers-button {
+    background: #4d4d4d;
+    line-height: 50px;
+}
+
+.cal-equal-button, .cal-zero-button {
+    background: rgb(0, 68, 102);
+    line-height: 50px;
+}

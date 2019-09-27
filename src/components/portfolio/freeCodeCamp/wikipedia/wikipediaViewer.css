@@ -1,0 +1,33 @@
+.wikipediaViewer {
+    color: #9E9E9E;
+}
+.wikipediaViewer .searchmatch {
+    background: #CEC;
+}
+
+.wikipedia-spinner {
+    width: 50%;
+    animation-name: rotate; 
+    animation-duration: 10s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;    
+}
+
+@keyframes rotate {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+.wikipedia-close-button:hover {
+    cursor: pointer;
+}
+.wk-result-item {
+    background-color: #edf8ff;
+}
+
+.wk-result-item:hover a {
+    text-decoration: none;
+}
+.wk-result-item:hover {
+    background-color: #e8fafd;
+}

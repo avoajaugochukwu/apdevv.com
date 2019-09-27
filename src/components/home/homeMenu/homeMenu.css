@@ -1,0 +1,25 @@
+.home-menu {
+    /* background: #bab8c9; */
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.home-menu-a {
+    color: white;
+    padding-right: 1em;
+    padding-left: 1em;
+    border-right: 1px #bab8c9 solid;
+}
+
+.home-menu-a:hover {
+    color: white;
+}
+
+.home-menu-a-last {
+    color: white;
+    padding-left: 1em;
+}
+
+.home-menu-a-last:hover {
+    color: white;
+}

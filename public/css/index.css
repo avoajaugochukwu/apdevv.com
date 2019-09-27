@@ -1,0 +1,14 @@
+.homeimage {
+
+    background-image: url('../img/marta-jastrzebska-1256094-unsplash.jpg');
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+}
+
+/* 
+background-image: url('../img/bg.jpg');
+  background-size: cover;
+  border: 2px solid black;
+  height: 300px;
+  width: 300px; */

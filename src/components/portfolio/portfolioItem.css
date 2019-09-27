@@ -1,0 +1,13 @@
+.portfolio_view_button {
+  background-color: #2962FF;
+  padding: 7px 15px 7px;
+  border-radius: 0px;
+  color: #fff;
+}
+
+.portfolio_view_button:hover {
+
+  border-radius: 5px;
+  background-color: rgba(41, 98, 255, .8);
+  color: #fff;
+}
